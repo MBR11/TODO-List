@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#app-heading{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  color: darkorchid;
+}
+
+.form-container{
+  border:1px solid silver;
+  padding:10px;
+  margin: 30px;
+  height:170px;
+}
+
+#fastyle{
+  float:left;
+  background-color: rgb(84, 165, 247);
+  margin-left:50px;
+  margin-top:12px;
+  width:50px;
+  height: 40px;
+  color: white;
+  
+}
+
+#inputstyle{
+  float:right;
+  margin-right:90px;
+  margin-top: 12px;
+  height: 40px;
+  width:1549px;
+  font-size: x-large;
+}
+
+#buttonstyle{
+  margin-left:50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  height: 50px;
+  width: 1600px;
+  color:white;
+  font-size: larger;
+}
+
+.list-container{
+  border: 1px solid silver;
+  border-left: 12px solid gray;
+  padding:5px;
+  margin-top: 50px;
+  height:60px;
+  width: 1200px;
+}
+
+#taskstyle{
+  float:left;
+  padding-left: 20px;
+  padding-top: 7px;
+  font-weight: bolder;
+  font-size: x-large;
+  color:orange;
+}
+
+#edstyle{
+  float:right;
+}
+
+
+#faeditstyle{
+  float:left;
+  padding-right: 50px;
+  padding-top: 7px;
+  font-size: x-large;
+  color: limegreen;
+}
+
+#fadeletestyle{
+ float: right;
+ padding-right:50px;
+ padding-top: 7px;
+ font-size: x-large;
+ color: crimson;
+}
+
+
+#clearstyle{
+  margin-top:100px;
+  border:1px solid red;
+  text-align: center;
+  font-size: x-large;
+  color:white;
+  background-color:crimson;
+  font-weight: bolder;
+  width: 1500px;
+  margin-left: 100px;
+}
